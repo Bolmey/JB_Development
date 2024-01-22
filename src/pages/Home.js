@@ -11,7 +11,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class="flex flex-row w-full justify-center">
+			<section class="flex w-full max-w-[1140px] flex-row w-full justify-center">
 				<div class="flex w-[30%] bg-red-100">test2</div>
 				<div class="flex w-[30%] bg-red-100">test2</div>
 				<div class="flex w-[30%] bg-red-100">test2</div>
