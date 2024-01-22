@@ -12,8 +12,8 @@ export default function Home() {
 				</div>
 			</section>
 			<section class="flex flex-row w-full justify-center">
-				<div class="flex w-[30%] bg-red-100">test2</div>
-				<div class="flex w-[30%] bg-red-100">test2</div>
+				<div class="flex w-[30%] bg-red-100">run 2</div>
+				<div class="flex w-[30%] bg-red-100">dd</div>
 				<div class="flex w-[30%] bg-red-100">test2</div>
 			</section>
 			<section></section>
