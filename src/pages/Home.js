@@ -1,8 +1,11 @@
 import React from "react";
 import ButtonDefault from "../components/ButtonDefault";
+import { Navbar } from "@material-tailwind/react";
+
 
 export default function Home() {
 	return (
+		
 		<div class="flex w-full max-w-[1140px] items-center flex-col md:p-10 md:mt-8">
 			<section class="flex justify-center w-full">
 				<div class="flex flex-col h-[400px] w-full bg-black">
@@ -10,7 +13,9 @@ export default function Home() {
 						Miami Code - Expert Web Development and Software
 						Solutions
 					</div>
-					<ButtonVariants />
+					<div>
+					<ButtonDefault />
+					</div>
 					
 				</div>
 				
