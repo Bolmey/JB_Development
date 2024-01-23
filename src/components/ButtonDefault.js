@@ -1,10 +1,10 @@
+import React from "react";
 import { Button } from "@material-tailwind/react";
- 
-export function ButtonVariants() {
-  return (
-    <div className="flex w-max gap-4">
-     
-     <Button size="lg" rounded-lg bg-white color="white" variant="filled">Get started now</Button>
-    </div>
-  );
+
+export default function ButtonDefault() {
+	return (
+		<Button className="px-5 py-2 border-2 rounded bg-white text-sm text-black">
+			Read More
+		</Button>
+	);
 }
