@@ -5,10 +5,9 @@ import { Navbar } from "@material-tailwind/react";
 
 export default function Home() {
 	return (
-		
-		<div class="flex w-full max-w-[1140px] items-center flex-col md:p-10 md:mt-8">
-			<section class="flex justify-center w-full">
-				<div class="flex flex-col h-[400px] w-full bg-black">
+		<div class="flex w-full items-center flex-col">
+			<section class="flex  justify-center w-full bg-black md:p-10">
+				<div class="flex flex-col h-[400px] max-w-[1140px] w-full ">
 					<div class="text-white text-6xl max-w-[80%]">
 						Miami Code - Expert Web Development and Software
 						Solutions
@@ -18,7 +17,6 @@ export default function Home() {
 					</div>
 					
 				</div>
-				
 			</section>
 
 			<section class="flex w-full justify-center bg-gray-500">
