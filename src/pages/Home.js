@@ -1,18 +1,19 @@
 import React from "react";
-import { ButtonDefault } from "../components/ButtonDefault";
+import { ButtonVariants } from "../components/ButtonDefault";
 
 export default function Home() {
 	return (
 		<div class="flex w-full max-w-[1140px] items-center flex-col md:p-10 md:mt-8">
 			<section class="flex justify-center w-full">
-				<div class="flex h-[100px] w-full bg-black">
-					<div class="text-white">
+				<div class="flex flex-col h-[400px] w-full bg-black">
+					<div class="text-white text-6xl max-w-[80%]">
 						Miami Code - Expert Web Development and Software
 						Solutions
 					</div>
-					
+					<ButtonVariants />
 					
 				</div>
+				
 			</section>
 
 			<section class="flex w-full justify-center bg-gray-500">
