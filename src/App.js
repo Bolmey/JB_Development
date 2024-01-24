@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
+import Footer from "./components/Footer.js";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -9,6 +10,7 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Home />}></Route>
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
