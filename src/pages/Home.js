@@ -11,8 +11,7 @@ export default function Home() {
 			<section class="flex  justify-center w-full bg-black md:p-10">
 				<div class="flex flex-col h-[400px] max-w-[1140px] w-full ">
 					<div class="text-white text-6xl max-w-[80%]">
-						Miami Code - Expert Web Development and Software
-						Solutions
+						Miami Code - Experts in Web Development
 					</div>
 					<div>
 						<ButtonDefault />
@@ -33,10 +32,9 @@ export default function Home() {
 						</div>
 						<div class="pt-10 text-xl  font-bold">01</div>
 						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
+						With innovative design and cutting-edge technology, we deliver bespoke solutions
+						 tailored to your needs. Trust us to elevate your online presence to new heights.
+						  Simply put, we're the best in the business.
 						</div>
 						<div class="flex justify-end pt-24">
 							<ButtonDefault />
@@ -46,10 +44,9 @@ export default function Home() {
 						<div class="text-2xl font-bold pt-5">Web Design</div>
 						<div class="pt-10 text-xl  font-bold">02</div>
 						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
+						Our team combines creativity with technical finesse to deliver bespoke designs
+						 that captivate and engage. With our team, you'll get tailored solutions that 
+						 align with your vision and goals. 
 						</div>
 						<div class="flex justify-end pt-24">
 							<ButtonDefault />
@@ -57,63 +54,19 @@ export default function Home() {
 					</div>
 					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
-							Software Solutions
+						Website Maintenance
 						</div>
 						<div class="pt-10 text-xl  font-bold">03</div>
 						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
+						Our team ensures your website stays secure and optimized for peak performance.
+						 With proactive monitoring and swift resolution of any issues, we keep your online presence
+						  running smoothly, allowing you to focus on your business.
 						</div>
 						<div class="flex justify-end pt-24">
 							<ButtonDefault />
 						</div>
-					</div>
-					<div class="flex flex-col text-white bg-blue2 p-10 md:p-5">
-						<div class="text-2xl font-bold pt-5">
-							E-commerce Development
-						</div>
-						<div class="pt-10 text-xl  font-bold">04</div>
-						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
-						</div>
-						<div class="flex justify-end pt-24">
-							<ButtonDefault />
-						</div>
-					</div>
-					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
-						<div class="text-2xl font-bold pt-5">
-							SEO Optimization
-						</div>
-						<div class="pt-10 text-xl  font-bold">05</div>
-						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
-						</div>
-						<div class="flex justify-end pt-24">
-							<ButtonDefault />
-						</div>
-					</div>
-					<div class="flex flex-col text-white bg-blue2  p-10 md:p-5">
-						<div class="text-2xl font-bold pt-5">
-							Website Maintenance
-						</div>
-						<div class="pt-10 text-xl  font-bold">06</div>
-						<div class="pt-10 text-xl ">
-							We offer professional web development services using
-							the latest technologies and best practices. Our team
-							of experienced developers provides custom solutions
-							that meet your needs and exceed your expectations.
-						</div>
-						<div class="flex justify-end pt-24">
-							<ButtonDefault />
-						</div>
+					
+					
 					</div>
 				</div>
 			</section>
