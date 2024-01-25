@@ -21,7 +21,7 @@ export default function Home() {
 				<div class="flex flex-col md:flex-row max-w-[1140px] w-full">
 					<div class="flex flex-col justify-center w-full md:w-1/2 py-10 md:py-20">
 						<div class="bold text-3xl md:text-5xl md:w-4/5">
-							Miami Code - Experts in Web Development Test
+							DevDyna - Experts in Web Development
 						</div>
 						<div class="pt-10 text-xl  md:w-4/5">
 							With innovative design and cutting-edge technology,
