@@ -188,8 +188,8 @@ export default function Home() {
 				class="flex w-full justify-center items-center bg-offwhite"
 			>
 				<div class="flex flex-col max-w-[1140px] w-full">
-					<div>CONTACT</div>
-					<div>FORM</div>
+					<div></div>
+					<div></div>
 				</div>
 			</section>
 
