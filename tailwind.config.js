@@ -21,6 +21,8 @@ module.exports = {
 				blue1: "#144893",
 				blue2: "#2270e2",
 				graybg: "#222222",
+				offwhite: "#fcfcfc",
+				offwhite2: "#f55f5f5",
 			},
 		},
 	},
