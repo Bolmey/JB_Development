@@ -18,9 +18,9 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section class="flex w-full justify-center bg-graybg">
-				<div class="flex flex-wrap w-full max-w-[1140px] justify-evenly pb-5">
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue1 mt-5 p-10 md:p-5">
+			<section class="flex w-full justify-center bg-graybg pt-6">
+				<div class="grid grid-cols-3 gap-6 w-full max-w-[1140px] justify-evenly pb-5">
+					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
 							Web Development
 						</div>
@@ -35,7 +35,7 @@ export default function Home() {
 							<ButtonDefault />
 						</div>
 					</div>
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue2 mt-5 p-10 md:p-5">
+					<div class="flex flex-col text-white bg-blue2 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">Web Design</div>
 						<div class="pt-10 text-xl  font-bold">02</div>
 						<div class="pt-10 text-xl ">
@@ -48,7 +48,7 @@ export default function Home() {
 							<ButtonDefault />
 						</div>
 					</div>
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue1 mt-5 p-10 md:p-5">
+					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
 							Software Solutions
 						</div>
@@ -63,7 +63,7 @@ export default function Home() {
 							<ButtonDefault />
 						</div>
 					</div>
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue2 mt-5 p-10 md:p-5">
+					<div class="flex flex-col text-white bg-blue2 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
 							E-commerce Development
 						</div>
@@ -78,7 +78,7 @@ export default function Home() {
 							<ButtonDefault />
 						</div>
 					</div>
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue1 mt-5 p-10 md:p-5">
+					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
 							SEO Optimization
 						</div>
@@ -93,7 +93,7 @@ export default function Home() {
 							<ButtonDefault />
 						</div>
 					</div>
-					<div class="flex flex-col text-white w-[100%] md:w-[30%] bg-blue2 mt-5 p-10 md:p-5">
+					<div class="flex flex-col text-white bg-blue2  p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
 							Website Maintenance
 						</div>
