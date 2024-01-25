@@ -9,9 +9,10 @@ function App() {
 	return (
 		<div class="flex flex-col justify-center items-center md:overflow-hidden bg-bgprimary w-auto scroll-smooth">
 			<NavbarSimple />
-			<Routes>
+			{/* <Routes>
 				<Route exact path="/" element={<Home />}></Route>
-			</Routes>
+			</Routes> */}
+			<Home />
 			<Footer />
 		</div>
 	);
