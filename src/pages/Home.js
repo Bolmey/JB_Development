@@ -1,7 +1,9 @@
 import React from "react";
 import ButtonDefault from "../components/ButtonDefault";
+import ButtonDesigned from "../components/ButtonDesigned";
 import { Navbar } from "@material-tailwind/react";
 import placeholder from "../images/placeholder.webp";
+import Marquee from "../components/Marquee";
 
 export default function Home() {
 	return (
@@ -14,11 +16,16 @@ export default function Home() {
 					</div>
 					<div>
 						<ButtonDefault />
+						<ButtonDesigned page="#section2" title="Read More ↓" />
 					</div>
+					<Marquee />
 				</div>
 			</section>
 
-			<section class="flex w-full justify-center bg-graybg pt-6">
+			<section
+				id="section2"
+				class="flex w-full justify-center bg-graybg pt-6"
+			>
 				<div class="grid grid-cols-3 gap-6 w-full max-w-[1140px] justify-evenly pb-5">
 					<div class="flex flex-col text-white bg-blue1 p-10 md:p-5">
 						<div class="text-2xl font-bold pt-5">
@@ -137,23 +144,31 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class="flex w-full justify-center items-center">
-				<div class=" grid grid-cols-4 divide-x w-full max-w-[1140px] justify-center items-center py-20">
-					<div class="flex flex-col justify-center items-center px-5">
-						<div class="text-5xl ">000+</div>
-						<div clas="text-4xl">Projects completed</div>
+			<section class="flex w-full justify-center items-center bg-gray-100">
+				<div class=" grid grid-cols-3 gap-4 w-full max-w-[1140px] justify-center items-center py-20">
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+						<div>image</div>
+						<div class="text-3xl bold pt-5">Succcess Oriented</div>
+						<div class="text-xl pt-5">
+							We are a success-oritented company that looks to
+							provide the best quality services to our clients
+						</div>
 					</div>
-					<div class="flex flex-col justify-center items-center px-5">
-						<div class="text-5xl">000</div>
-						<div clas="text-4xl">Happy clients</div>
-					</div>
-					<div class="flex flex-col justify-center items-center px-5">
-						<div class="text-5xl">00+</div>
-						<div clas="text-4xl">Awards received</div>
-					</div>
-					<div class="flex flex-col justify-center items-center px-5">
-						<div class="text-5xl">02</div>
-						<div clas="text-4xl">Team members</div>
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+						<div>image</div>
+						<div class="text-3xl bold pt-5">Succcess Oriented</div>
+						<div class="text-xl pt-5">
+							We are a success-oritented company that looks to
+							provide the best quality services to our clients
+						</div>
+					</div>{" "}
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+						<div>image</div>
+						<div class="text-3xl bold pt-5">Succcess Oriented</div>
+						<div class="text-xl pt-5">
+							We are a success-oritented company that looks to
+							provide the best quality services to our clients
+						</div>
 					</div>
 				</div>
 			</section>
