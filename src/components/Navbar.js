@@ -89,7 +89,7 @@ export default function NavbarSimple() {
 					variant="h6"
 					className="mr-none cursor-pointer py-1.5"
 				>
-					DevDyna
+					DEVDYNA
 				</Typography>
 				<div className="hidden lg:block">
 					<NavList />
