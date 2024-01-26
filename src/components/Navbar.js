@@ -6,6 +6,7 @@ import {
 	IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import devdynaNavLogo from "../images/devdynaNavLogo.png"
 
 function NavList() {
 	return (
@@ -81,16 +82,22 @@ export default function NavbarSimple() {
 	}, []);
 
 	return (
-		<Navbar className="mx-auto border-none  bg-graybg px-6 py-3">
-			<div className="flex items-center justify-between text-blue-gray-900">
-				<Typography
+		<Navbar className="mx-auto border-none  bg-graybg px-6 pt-3 pb-2">
+			<div className="flex items-center max-w-[1580px] justify-around text-blue-gray-900">
+				<img class="max-h-10" src={devdynaNavLogo} />
+
+				{/* COMENTED THIS OUT FOR THE PICTURE \/ */}
+
+				{/* <Typography
 					as="a"
 					href="#"
 					variant="h6"
 					className="mr-none cursor-pointer py-1.5"
 				>
 					DEVDYNA
-				</Typography>
+				</Typography> */}
+
+
 				<div className="hidden lg:block">
 					<NavList />
 				</div>
