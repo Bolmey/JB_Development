@@ -150,34 +150,35 @@ export default function Home() {
 				class="flex w-full justify-center items-center bg-offwhite"
 			>
 				<div class=" grid grid-cols-0 md:grid-cols-3 gap-4 w-full max-w-[1140px] justify-center items-center px-2 md:px-0 py-5 md:py-20">
-					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white drop-shadow-md hover:drop-shadow-xl">
 						<div class="w-full">
 							<Lottie class="h-28" animationData={bulb} />
 						</div>
 						<div class="text-3xl bold pt-5">Succcess Oriented</div>
 						<div class="text-xl pt-5">
-							We are a success-oritented company that looks to
-							provide the best quality services to our clients
+						Our success-oriented approach is embedded in every line of code and every pixel we design, we take pride
+						in creating custom designs.
 						</div>
 					</div>
-					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white drop-shadow-md hover:drop-shadow-xl">
 						<div class="w-full">
 							<Lottie class="h-28" animationData={graph} />
 						</div>
-						<div class="text-3xl bold pt-5">Succcess Oriented</div>
+						<div class="text-3xl bold pt-5">Growth Driven</div>
 						<div class="text-xl pt-5">
-							We are a success-oritented company that looks to
-							provide the best quality services to our clients
+						From intuitive user experiences to robust backends, all aspects of our
+						 development process is carefully crafted with your growth in mind.
 						</div>
 					</div>{" "}
-					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white">
+					<div class="flex flex-col justify-center items-center text-center px-5 py-10 border-2 rounded-2xl bg-white drop-shadow-md hover:drop-shadow-xl">
 						<div class="w-full">
 							<Lottie class="h-28" animationData={rocket} />
 						</div>
-						<div class="text-3xl bold pt-5">Succcess Oriented</div>
+						<div class="text-3xl bold pt-5">Result Focused</div>
 						<div class="text-xl pt-5">
-							We are a success-oritented company that looks to
-							provide the best quality services to our clients
+						We leverage the latest technologies and industry best practices to ensure 
+						your website isn't just an online presence but a powerful asset.
+						
 						</div>
 					</div>
 				</div>
