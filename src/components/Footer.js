@@ -8,7 +8,7 @@ export default function Footer() {
 					<div>FOLLOW US</div>
 				</div>
 				<div class="flex justify-center">
-					<div>jbdev@gmail.com</div>
+					<div>DEVDYNACONTACT@gmail.com</div>
 				</div>
 			</div>
 		</section>
